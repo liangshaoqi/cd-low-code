@@ -38,9 +38,10 @@ q:before, q:after {
 a{
     text-decoration: none;
 }
-/* 全局设置盒子模型 */
+/* 全局设置盒子模型及字体 */
 html {
   box-sizing: border-box;
+	font-size: 12px;
 }
 *,*::before,*::after {
   box-sizing: inherit;
