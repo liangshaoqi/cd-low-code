@@ -6,7 +6,7 @@ const ConponentStore: FC<PropsType> = (props: PropsType) => {
 //  const {} = props
   return (
     <div>
-      <CdButton>按钮</CdButton> 
+      <CdButton type='primary'>按钮</CdButton> 
     </div>
   );
 };

@@ -3,6 +3,7 @@ import "./index.less";
 import TopToolBar from "./topToolBar";
 import LeftToolBar from "./leftToolBar";
 import RightToolBar from "./rightToolBar";
+import WorkbenchCenter from "./workbenchCenter";
 // 定义Props类型
 type LayoutProps = {};
 
@@ -17,7 +18,9 @@ const Layout: FC<LayoutProps> = () => {
         <div className="cd-left">
           <LeftToolBar></LeftToolBar>
         </div>
-        <div className="cd-workbench-center">视图区域</div>
+        <div className="cd-workbench-center">
+          <WorkbenchCenter></WorkbenchCenter>
+        </div>
         <div className="cd-right">
           <RightToolBar></RightToolBar>
         </div>
